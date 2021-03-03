@@ -1,0 +1,13 @@
+body {
+    background-image: url("https://i.imgur.com/0BPwll2.jpg")
+}
+
+.quote-box {
+    display: grid;
+    justify-content: center;
+    border: 1px solid black; 
+    width: 500px;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: white;
+}
