@@ -14,6 +14,7 @@ $('#btn').click(function(){
 			"x-rapidapi-key": "70b945a681msh8d168d5c4aa23c1p1bcb28jsn7e989a896147",
 			"x-rapidapi-host": "quotes15.p.rapidapi.com"
 		}
+		
 })
 .then(function(data) {
 	console.log(data)
@@ -22,8 +23,13 @@ $('#btn').click(function(){
     $author.text(data.originator.name);
 
 })
+
 .catch(err => {
 	console.error(err);
 });
 
+document.getElementsByClassName(quote-box).backgroundColor = "#fee4dc";
+
 });
+
+

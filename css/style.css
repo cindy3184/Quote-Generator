@@ -1,13 +1,21 @@
+/* imgur image url wasn't working */
+
 body {
-    background-image: url("https://i.imgur.com/0BPwll2.jpg")
+    background-image: url("https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quote-box {
     display: grid;
     justify-content: center;
-    border: 1px solid black; 
+    border: 1px solid white; 
     width: 500px;
     padding: 70px;
+    margin: 500px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #133D80;
+    color: white;
 }
