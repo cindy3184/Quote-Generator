@@ -9,13 +9,19 @@ body {
 }
 
 .quote-box {
-    display: grid;
-    justify-content: center;
+    display: block;
+    margin: 200px 0 0 375px;
     border: 1px solid white; 
     width: 500px;
     padding: 70px;
-    margin: 500px;
     border-radius: 10px;
     background-color: #133D80;
     color: white;
+    font-family: 'Krona One', sans-serif;
+ 
+}
+
+.quote-box#main {
+    font-style: italic;
+    color: tomato;
 }
