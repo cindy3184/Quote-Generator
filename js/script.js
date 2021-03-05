@@ -28,8 +28,6 @@ $('#btn').click(function(){
 	console.error(err);
 });
 
-document.getElementsByClassName(quote-box).backgroundColor = "#fee4dc";
-
 });
 
 
