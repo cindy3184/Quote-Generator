@@ -28,7 +28,7 @@ body {
 
 .quote-box #btn {
     display: inline-block;
-  border-radius: 4px;
+  border-radius: 50px;
   background-color: #190e2b;
   border: none;
   color: #FFFFFF;
@@ -41,15 +41,24 @@ body {
   margin: 5px;
 }
 
+.quote-box #btn{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.quote-box #btn:hover{
+    background-color:#aca4af;
+     border-color:#DDDDDD;
+    }
+
 .quote-box #main {
     font-style: italic;
     color: #688eca;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 @media screen and (max-width: 900px) {
     .quote-box{
-        height: 50vh;
         margin: auto;
         background-color: #654274;
         width: 250px;
