@@ -1,6 +1,8 @@
 # Quote of the Day
  A random quote generator app that generates a new quote for the user on each click.
  
+ https://cindy3184-github-io-nli5xpqi5-cindy3184.vercel.app/
+ 
 ## Technologies used:
 * HTML
 * CSS
